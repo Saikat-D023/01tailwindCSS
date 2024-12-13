@@ -1,4 +1,5 @@
 import './App.css'
+import { Button } from './components/Buttons'
 
 function App() {
 
@@ -18,10 +19,9 @@ function App() {
    </div> */}
 
    {/* excercise-2 */}
-   <div className='h-screen w-full
-   bg-blue-900'>
+   <div className='h-screen bg-blue-700'>
     <h1 className='py-300'>Verify Your Age</h1>
-
+      <Button disabled={true}>Sign up</Button>
     </div>
     </>
   )
