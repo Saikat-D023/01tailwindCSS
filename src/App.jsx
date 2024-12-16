@@ -1,5 +1,6 @@
 import './App.css'
 import { Button } from './components/Buttons'
+import { Otp } from './components/Otp'
 
 function App() {
 
@@ -19,9 +20,14 @@ function App() {
    </div> */}
 
    {/* excercise-2 */}
-   <div className='h-screen bg-blue-700'>
+   {/* <div className='h-screen bg-blue-700'>
     <h1 className='py-300'>Verify Your Age</h1>
       <Button disabled={true}>Sign up</Button>
+    </div> */}
+
+    {/* //excercise-3 */}
+    <div className='h-screen bg-blue-700'>
+      <Otp />
     </div>
     </>
   )
