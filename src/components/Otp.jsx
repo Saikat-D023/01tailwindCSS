@@ -10,7 +10,7 @@ export function Otp() {
     const ref6 = useRef();
 
     //this is how refs are used irl
-
+    //im sorry for this cover up
     return <div className="flex justify-center">
         <SubOtpBox reference={ref1} onDone={() => {
             ref2.current.focus()
